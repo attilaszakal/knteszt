@@ -1,11 +1,545 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Blank App</title>
-    </head>
-    <body>
-        <script type="text/javascript" src="cordova.js"></script>
-    </body>
+<html lang="hu">
+	
+<!-- Mirrored from localhost.sonicdata.hu/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Feb 2019 22:54:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="Content-Language" content="hu-hu" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SonicData - fókuszban az adatok</title>
+<meta name="title" content="SonicData - fókuszban az adatok" />
+<meta name="keywords" content="üzleti döntések, business intelligence, datascience, predikítv analitika, adatvezérelt marketing, adatvezérelt üzleti döntések" />
+<meta name="description" content="A SonicData Kft. az üzleti képzésekkel és tanácsadással, adatalapú kutatásokkal, mérésekkel segíti a partnereit az intelligensebb üzleti döntések meghozatalában." />
+<meta property="og:locale" content="hu_HU" />
+<meta property="og:type" content="" />
+<meta property="og:site_name" content="SonicData" />
+<meta property="og:title" content="SonicData - fókuszban az adatok"/>
+<meta property="og:description" content="A SonicData Kft. az üzleti képzésekkel és tanácsadással, adatalapú kutatásokkal, mérésekkel segíti a partnereit az intelligensebb üzleti döntések meghozatalában."/>
+<meta property="og:image" content=""/>
+<meta property="og:url" content="index.html" />
+<meta name="robots" content="index,follow" />
+<!-- <link rel="shortcut icon" href="/theme/images/ikon.png" type="image/png" /> -->
+<!-- CSS -->
+<!-- Bootstrap core CSS -->
+<link href="theme/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="theme/fonts/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!-- Raleway Font -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
+<!-- Stylesheet -->
+
+<link href="theme/mmSlider1e3f0.min.css?update2='023" rel="stylesheet">
+<link href="theme/stylee3f0.css?update2='023" rel="stylesheet">
+<style>
+</style>
+<!-- JS -->
+<!-- <script src="/theme/jquery-3.3.1.min.js" type="text/javascript"></script> -->
+<!-- <script src="/theme/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script> -->
+<!-- <script src="/theme/jquery.ui.touch-punch.min.js" type="text/javascript"></script> -->
+<!-- <script src="/theme/touchTouch/touchTouch.jquery.js" type="text/javascript"></script> -->
+<!-- <script src="/theme/jquery.session.js" type="text/javascript"></script> -->
+<script type="text/JavaScript"> var site={protocol:'http:',host:'localhost.sonicdata.hu',url:'/',base_url:'/',base_script_url:'/',theme:'theme',theme_url:'/theme/',page:'fooldal',subpage:'',floatpage:'',contentpage:'',v:'2019',view:'',lang:'hu',is_dev:''}; </script>
+	</head>
+
+	<body data-spy="scroll" data-target="#navbar" data-offset="70">
+		<span id="ismobile"></span><span id="istablet"></span>
+		<div id="navbar" class="navbar navbar-inverse">
+			<div class="fixed-container">      
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#home"><!-- <span class="glyphicon "></span> --><img src="theme/img/logo3308.png?update='023" style="margin-top: -5px; height: 35px;" /></a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#rolunk"><span class="glyphicon glyphicon-user"></span>rólunk</a></li>
+						<!-- <li><a href="#adatok"><span class="glyphicon icon-bar-chart"></span>adatok</a></li> -->
+						<li><a href="#adatok"><span class="glyphicon fas fa-database"></span>adatok</a></li>
+						<li><a href="#tevekenysegek"><span class="glyphicon icon-sitemap"></span>tevékenység</a></li>
+						<li><a href="#when"><span class="glyphicon icon-time"></span>mikor</a></li>
+						<li><a href="#contact"><span class="glyphicon icon-comments"></span>kapcsolat</a></li>
+						<!-- <li><a href="#about"><span class="glyphicon glyphicon-user"></span>A csapatunk</a></li> -->
+						<!-- <li><a href="#tevekenysegek"><i class="icon-gear"></i>Szolgáltatások</a></li> -->
+						<!-- <li><a href="#work"><span class="glyphicon glyphicon-briefcase"></span>Referenciák</a></li> -->
+						<!-- <li><a href="#pricing"><i class="icon-dollar"></i>Ajánlatok</a></li> -->
+						<!-- <li><a href="#contact"><i class="icon-map-marker"></i>Kapcsolat</a></li> -->
+						<!-- <li><a href="#clients"><i class="icon-comments"></i>Partnerek</a></li> -->
+					</ul>
+					<!-- <ul class="nav navbar-nav switch-lang">
+						<li><a href="/en/">EN</a></li>
+						<li><a href="/hu/">HU</a></li>
+					</ul> -->
+					
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+
+		<!-- Features Section -->
+			<div id="home" class="section welcome">
+				<div id="mmSlider1" class="mmSlider1" data-mobil-outsidelead="" data-effect="fade" data-showitems="1" data-ratio="windowheight" data-ratio_="1350x657" data-padding="0" data-pos="0" data-autoplay="5000" data-hoverpause="0" data-loop="1">
+					<div class="items" style="height: 992.87px;">
+						<div class="item prev2" style="z-index: 10;">
+								<img class="background" src="theme/images/bg1.jpg" class="">
+								<div class="overlay">&nbsp;</div>
+								<h1 class="text mW">
+									<div class="w100 mW">
+										<div class="title">SonicData</div>
+										<p>központban az adatok és üzleti döntések</p>
+										<a href="#rolunk" class="more scroll-down btn">BŐVEBBEN<!--  <span class="raquo">&rsaquo;</span> --></a>
+									</div>
+								</h1>
+								<!-- <div class="more">
+									<span class="scroll-down btn" href="#about">BŐVEBBEN</span>
+									<span class="scroll-down" href="#about"><i class="icon-angle-down"></i></span>
+								</div> -->
+							</div><div class="item prev2" style="z-index: 10;">
+								<img class="background" src="theme/images/GettyImages-852812526-1200x.jpg" class="b">
+								<div class="overlay">&nbsp;</div>
+								<h1 class="text mW">
+									<div class="w100 mW">
+										<div class="title">Tanácsadás</div>
+										<p>üzleti döntések támogatása adatelemzéssel, tanácsadással</p>
+										<a href="#tevekenysegek" class="more scroll-down btn">BŐVEBBEN<!--  <span class="raquo">&rsaquo;</span> --></a>
+									</div>
+								</h1>
+								<!-- <div class="more">
+									<span class="scroll-down btn" href="#about">BŐVEBBEN</span>
+									<span class="scroll-down" href="#about"><i class="icon-angle-down"></i></span>
+								</div> -->
+							</div><div class="item prev2" style="z-index: 10;">
+								<img class="background" src="theme/images/GettyImages-870467850-1200x.jpg" class="b">
+								<div class="overlay">&nbsp;</div>
+								<h1 class="text mW">
+									<div class="w100 mW">
+										<div class="title">KÉPZÉSEK</div>
+										<p>adatvezérelt üzleti döntések és egyéb üzleti kurzusok</p>
+										<a href="#tevekenysegek" class="more scroll-down btn">BŐVEBBEN<!--  <span class="raquo">&rsaquo;</span> --></a>
+									</div>
+								</h1>
+								<!-- <div class="more">
+									<span class="scroll-down btn" href="#about">BŐVEBBEN</span>
+									<span class="scroll-down" href="#about"><i class="icon-angle-down"></i></span>
+								</div> -->
+							</div><div class="item prev2" style="z-index: 10;">
+								<img class="background" src="theme/images/GettyImages-937862316-1200x.jpg" class="b">
+								<div class="overlay">&nbsp;</div>
+								<h1 class="text mW">
+									<div class="w100 mW">
+										<div class="title">Kutatás, mérések</div>
+										<p>márkakutatások, márkaérték mérés</p>
+										<a href="#tevekenysegek" class="more scroll-down btn">BŐVEBBEN<!--  <span class="raquo">&rsaquo;</span> --></a>
+									</div>
+								</h1>
+								<!-- <div class="more">
+									<span class="scroll-down btn" href="#about">BŐVEBBEN</span>
+									<span class="scroll-down" href="#about"><i class="icon-angle-down"></i></span>
+								</div> -->
+							</div>					</div>
+					<div class="rect"></div>
+					<div class="points"><div><div class="point prev"></div><div class="point next inakt"></div></div></div>
+				</div>
+			</div><!-- /.container -->
+			
+			<!-- Features Section -->
+			
+			
+						<!-- rolunk Section -->
+			<div id="rolunk" class="section">
+				<div class="fixed-container">
+					
+					<div class="content rolunk">
+						<h1>Rólunk</h1>
+						<p><i style="font-size: 120%;"><b>„If analytics is the engine, then data is the oil of 21st century”</b></i></p>
+						<p>A SonicData Kft. a Netvestor cégcsoport tagjaként működve, az adatok elemzésével, üzleti képzésekkel és tanácsadással segíti a partnereit az intelligensebb üzleti döntések meghozatalában.</p>
+						<p>A csapatunk az üzleti célú adatelemzések, üzleti modellezések szakmai hátterét adja és a cégcsoport más tagjaival együttműködve, akár átfogóbb mérési és piackutatási projekteket is végzünk. </p>
+						<p>A tevékenységünk elsősorban marketing, értékesítési illetve ezekhez kapcsolódó pénzügyi kérdésekre fókuszál, de akár egyéb - például HR vagy társadalmi - tematikájú projektekben is közreműködünk, ahol szükség van az adatok megértésére, mérésére, elemzésére és a döntések támogatására.</p>
+						<!-- <p>&nbsp;</p> -->
+						<!-- <p>&nbsp;</p> -->
+						<!-- <p>&nbsp;</p> -->
+					</div>
+				</div>
+			</div><!-- /.container -->
+				 
+			
+			
+
+			<!-- Services Section -->
+			<!--  Image background parallax -->
+						<div id="tevekenysegek" class="section grey image">
+				<div class="background parallax"></div>
+				<div class="fixed-container">
+					
+					<div class="content services">
+						<h1>Tevékenységek</h1>
+						<div>&nbsp;</div>
+						<!-- <div class="row">
+							<div class="empty col-md-2 col-sm-3 col-xs-12"></div>
+							<div class="col-md-8 col-sm-6 col-xs-12">
+								<h3 class="text-center"></h3>
+							</div>
+							<div class="empty col-md-2 col-sm-3 col-xs-12"></div>
+						</div> -->
+						<div class="row">
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="service-icon">
+									<i class="fas fa-chart-line" data-delay='{ "show": 0, "hide": 100000 }' data-toggle="tooltip" data-html="true" title=""></i>
+									<span>ADATELEMZÉS, TANÁCSADÁS</span>
+									<span>Mára szinte minden iparágban egyre meghatározóbb a versenyképessége szempontjából is, hogy mit kezdenek a vállalkozások rendelkezésükre álló adatokkal. Tanácsadói tevékenységünk során segítünk a megfelelő kérdéseket feltenni, az adatokat összegyűjteni és a válaszokat megtalálni.</span>                
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="service-icon">
+									<i class="fas fa-graduation-cap" data-delay='{ "show": 0, "hide": 100000 }' data-toggle="tooltip" data-html="true" title=""></i>
+									<span>ÜZLETI KÉPZÉSEK</span>
+									<span>Az adatokban rejlő versenyelőnyök kihasználása, valamint az üzleti döntéshozatal támogatása érdekében szükséges a szervezetet és munkatársak adatelemzési, analitikus képességeit fejleszteni. A SonicData ebben támogatja az ügyfeleit adatokra fókuszáló üzleti képzésekkel.</span>                
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="service-icon">
+									<i class="fas fa-tachometer-alt" data-delay='{ "show": 0, "hide": 100000 }' data-toggle="tooltip" data-html="true" title=""></i>
+									<span>MÉRÉS-KUTATÁS</span>
+									<span>A kutatásaink és méréseink célja, hogy az ügyfelek számára egy-egy adott üzleti kérdésben vagy akár átfogó témában insight-okat, válaszokat adjunk. Megmérjük mit gondol a piac egy adott termékről, márkáról vagy éppen a versenytársakat és piaci-gazdasági környezetet vesszük górcső alá.</span>                
+								</div>
+							</div>
+							<!-- <div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="service-icon">
+									<i class="icon-cloud" data-delay='{ "show": 0, "hide": 100000 }' data-toggle="tooltip" data-html="true" title="A felhő megoldások alkalmazása növeli az üzleti hatékonyságot és agilitást, elősegíti az innovációt. A segítségünkkel kialakíthatja a saját felhő stratégiáját, és sikeresen alkalmazhatja azt a saját szervezetében."></i>
+									<span>Felhő megoldások:</span>                
+								</div>
+							</div> -->
+							<!-- <div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="service-icon">
+									<i class="icon-th-large" data-delay='{ "show": 0, "hide": 100000 }' data-toggle="tooltip" data-html="true" title="Megismerjük és felmérjük vállalkozásai igényeit, hogy az egyedi igényeinek a legmegfelelőbb alkalmazást hozzuk létre. Profi csapatunk szervezetre és személyre szabott egyedi fejlesztéseinek segítségével növelheti szervezetének hatékonyságát. Az elkészülő alkalmazások és rendszerek lehetőségeinek csak az Ön elképzelései szabhatnak határt. <br/><br/>Technológiák, amelyeket használunk:<br/>Java, Java EE, C, C++, C#, JBoss, Tomcat, Glassfish, WebSphere, Maven, Spring "></i>
+									<span>Alkalmazásfejlesztés</span>                
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+	 
+			
+						<!-- when Section -->
+			<div id="when" class="section">
+				<div class="fixed-container">
+					
+					<div class="content when">
+						<h1>Mikor fordulj hozzánk?</h1>
+						<ul>
+							<li>Ha <b>jelentős mennyiségű értékesítési, marketing vagy egyéb üzleti adatod van</b>, de nem tudod mit kezdj vele, csak érzed, hogy többet is kihozhatnál belőle</li>
+							<li>Amennyiben a hagyományos döntéstámogató eszközök (pl. értékesítési vagy pénzügyi riportok) nem elegendőek vagy épp ezek fejlesztésével szeretnél, <b>mélyebb összefüggéseket feltárni, új üzleti konklúziókat levonni, megbízhatóbb előrejelzéseket készíteni</b></li>
+							<li>Ha tudod már, hogy milyen üzleti kérdésekre szeretnél válasz kapni – de nem tudod, hogy ehhez honnan és milyen adatokat szerezz, hogyan elemezd azokat</li>
+							<li>Amennyiben úgy gondolod, hogy egy külső szakértő, friss szemmel új megközelítést tud hozni, új összefüggésekre világíthat rá</li>
+							<li>Ha szeretnéd az értékesítési, marketing vagy üzleti elemzéssel foglalkozó <b>munkatársak, vezetők analitikus képességeit fejleszteni</b></li>
+						</ul>
+					</div>
+					<p class="text-center mt4"><a class="btn addarrow" href="mikor-fordulj-hozzank/index.html">BŐVEBBEN</a></p>
+				</div>
+			</div><!-- /.container -->
+			
+
+						
+			
+						<!-- Pricing Section -->
+			<div id="pricing" class="section white">
+				<div class="fixed-container">
+					
+					<div class="content">
+						<h1>Üzleti képzések</h1>
+						<p>&nbsp;</p>
+						<div class="pricing">
+							<div class="row">
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<div class="wrapper">
+										<h3 class="text-center"><!-- <span class="glyphicon glyphicon-leaf"> --></span>Adatvezérelt<br>üzleti döntések</h3>
+										<!-- <h4 class="text-center">Hogyan segítik az adatok a döntéseket?</h4> -->
+										<table class="table">
+											<thead>
+												<tr><th>
+													<span class="price"><i class="fas fa-map-signs"></i></span>
+												</th></tr>
+											</thead>
+											<tbody>
+												<tr><td>Hogyan segítik az adatok<br>a döntéseket?</td></tr>
+												<!-- <tr><td>No reselling </td></tr> -->
+												<!-- <tr><td>Free Email Support</td></tr>   -->
+												<tr><td>
+													<p>Az adattudományok népszerűsége folyamatosan növekszik, a üzleti alkalmazások lehetőségei napról napra bővülnek.  A gyakorlatorientált kurzus elsősorban marketing és értékesítés szakemberek, üzleti elemzők és döntéshozók számára segít az analitikus gondolkodás fejlesztésében, fejlett adatelemzési technikák és prediktív analitikai alapok elsajátításában.
+													<p>A résztvevők megismerkednek az R (Studio), mint az egyik legkedveltebb adatelemzési és vizualizációs eszköz lehetőségeivel, valamint az EXCEL néhány haladó analitikus funkciójával.
+												</td></tr>  
+												<tr><td><a href="kepzesek/adatvezerelt-uzleti-dontesek.html" class="btn">Bővebben</a></td></tr>  
+											</tbody>
+										</table>
+									</div>
+								</div>
+
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<div class="wrapper">
+										<h3 class="text-center"><!-- <span class="glyphicon glyphicon-send"></span> -->Customer<br>analytics</h3>
+										<!-- <h4 class="text-center">Hogyan segítik az adatok a döntéseket?</h4> -->
+										<table class="table">
+											<thead>
+												<tr><th><span class="price"><i class="fas fa-users-cog"></i></span></th></tr>
+											</thead>
+											<tbody>
+												<tr><td>Hogyan segítik az adatok<br>a döntéseket?</td></tr>
+												<!-- <tr><td>No reselling </td></tr> -->
+												<!-- <tr><td>Free Email Support</td></tr>   -->
+												<tr><td>
+													<p>A legfontosabb érték a vevő, ezért minden cégvezetőnek, marketing, értékesítési vagy éppen ügyfélkapcsolati területen dolgozó szakembernek és döntéshozónak ismernie kell őket!
+													<p>A kurzus során áttekintjük, hogy milyen metrikákat alkalmazhatunk a vevői viselkedés megértésben, hogyan és honnan szerezzünk ehhez adatokat? Továbbá megvizsgáljuk azt is, hogy miként lehet mérni a vevő elégedettséget vagy éppen, hogy egy adott vevő mekkora értéket jelent a számunkra és kik a legfontosabb vevőink. 
+												</td></tr>  
+												<tr><td><a href="kepzesek/customer-analytics.html" class="btn">Bővebben</a></td></tr>  
+											</tbody>
+										</table>
+									</div>
+								</div>
+
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<div class="wrapper">                
+										<h3 class="text-center"><!-- <span class="glyphicon glyphicon-plane"></span> -->Sales<br>forecasting</h3>
+										<!-- <h4 class="text-center">Mennyi lesz a bevételem?</h4> -->
+										<table class="table">
+											<thead>
+												<tr><th><span class="price"><i class="fas fa-funnel-dollar"></i></span></th></tr>
+											</thead>
+											<tbody>
+												<tr><td>Mennyi lesz<br>a bevételem?</td></tr>
+												<!-- <tr><td>Allowed to use and resell</td></tr>   -->
+												<!-- <tr><td>Free Email Support</td></tr>   -->
+												<tr><td>
+													<p>Akár új üzleti vállalkozás vagy új termékvonal indításáról, akár éves üzleti tervezésről van szó, a legelső kérdés általában, hogy mekkora bevétel várható. A kurzus célja, hogy bemutassuk azokat a legfontosabb adatvezérelt bevétel előrejelzési módszereket, amelyek üzleti szituációtól és a rendelkezésre álló adatoktól függően érdemes alkalmazni.
+													<p>Elsősorban azokra az módszertanokra fókuszálunk, amelyek túlmutatnak az üzleti intuíciókon és ahol hangsúlyos szerepet kapnak az adatok.    
+												</td></tr>  
+												<tr><td><a href="kepzesek/sales-forecasting.html" class="btn">Bővebben</a></td></tr>  
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="text-center mt4"><a href="kepzesek.html" class="btn all">ÖSSZES KÉPZÉS</a></p>
+			</div><!-- /.container -->
+			
+
+			<!-- Services Section -->
+			<!--  Image background parallax -->
+						<div id="adatok" class="section image">
+				<div class="background parallax"></div>
+				<div class="fixed-container">
+					<div class="content adatok">
+						<h1>Adatok</h1>
+						<p>A 21. századi üzleti világban az adatok váltak az egyik legfontosabb, de sokszor a legkevésbé kiaknázott erőforrássá. A hálózati infrastruktúrák fejlődése, az adattároló kapacitások folyamatos bővülése, az IoT rohamos térnyerése és a vállalatirányítási rendszerek (pl. ERP, CRM) elterjedése együttesen ahhoz vezetett, hogy hatalmas mennyiségű adattal rendelkeznek a cégek. </p>
+						<p>Ugyanakkor ezek az adatok önmagukban, abban a nyers formában, ahogy rendelkezésre állnak  még általában nem alkalmasak arra, hogy üzleti konklúziókat vonjunk le belőle vagy összefüggéseket tárjunk fel. Erre szolgálnak azok adatelemzési módszerek pl. aggregát üzleti KPI-ok képzése, regressziós modellezés, idősoros elemzések, klaszter analízise, döntési fa modellek generálása, amelyek kidolgozásában a SonicData szakértői támogatást tud nyújtani.</p>
+						<a href="tudasbazis.html" class="more btn mt4">BŐVEBBEN<!--  <span class="raquo">&rsaquo;</span> --></a>
+						<!-- <p>&nbsp;</p> -->
+						<!-- <p>&nbsp;</p> -->
+						<!-- <p>&nbsp;</p> -->
+					</div>
+				</div>
+			</div>
+			
+
+			<!-- Contact Section -->
+			<div id="contact" class="section grey contact">
+				<div class="fixed-container full">
+					<div class="content">
+					<h1>Kapcsolat</h1>
+					<h2>SonicData Marketing Kft.</h2>
+					<p>Cím: H-1035 Budapest, Vihar utca 18.</p>
+					<p>Email: info@sonicdata.hu<br/>
+					Telefon: +361 887 4848</p>
+					<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.2727054081165!2d19.08872361579823!3d47.5040801030472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc8638a93a09%3A0xefc92910d5bd915f!2sBudapest%2C+Istv%C3%A1nmezei+%C3%BAt+2%2C+1146!5e0!3m2!1sen!2shu!4v1475495670076" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.099869301424!2d19.035589115628472!3d47.546384979180715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d968bf41209b%3A0x71f30ab404c2619a!2sBudapest%2C+Vihar+u.+18%2C+1035!5e0!3m2!1sen!2shu!4v1548543401590" width="100%" height="450" frameborder="0" style="border:0; margin-top: 5%" allowfullscreen></iframe></div>
+				</div>
+			</div><!-- /.container -->
+
+			<!-- Modal -->
+			<!-- <div id="writeUs" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">ÍRJON NEKÜNK!</h4>
+						</div>
+						<div class="modal-body">
+							<p><textarea>
+
+
+
+</textarea></p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">KÜLDÉS</button>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<section id="write" class="active active1">
+					<div class="container">
+						<h1>Írj nekünk</h1>
+						<div id="register-form" novalidate="novalidate">
+							<div class="mainform">
+								<div>
+									<input id="fullname" name="fullname" placeholder="Teljes név" type="text" class="placeholder">
+								</div>
+								<div>
+									<input class="form-email placeholder" name="email" id="email" placeholder="E-mail cím" type="text">
+								</div>
+								<div>
+									<input placeholder="Tárgy" name="subject" id="subject" type="text" class="placeholder">
+								</div>
+								<div class="textarea">
+									<textarea name="message" id="message" placeholder="Üzenet" cols="30" rows="10" class="placeholder" style="overflow: hidden; word-wrap: break-word; resize: none; height: 113px;"></textarea>
+								</div>
+							</div>
+							<div class="human-test">
+								<!-- <div id="test">Please select below number: 5</div>
+								<label>
+									<input type="radio" name="rand" value="1">One
+								</label>
+								<label>
+									<input type="radio" name="rand" value="2">Two
+								</label>
+								<label>
+									<input type="radio" name="rand" value="3">Three
+								</label>
+								<label>
+									<input type="radio" name="rand" value="4">Four
+								</label>
+								<label>
+									<input type="radio" name="rand" value="5">Five
+								</label> -->
+								<!--  -->
+								<div class="button">
+									<button class="btn bb send" type="submit" name="check"> ÜZENET KÜLDÉSE </button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+			
+			<!-- Clients and Testimonials Section -->
+			<!--  Image background parallax -->
+			<div id="clients" class="section image">
+				<div class="background parallax"></div>
+				<div class="fixed-container">
+					
+					<div class="content services">
+						<h1>Partnerek</h1>
+						<div class="row">
+							<div class="logo brandbook col-md-2 col-sm-2 col-xs-12"><a class="tab" target="_blank" href="http://brandbook.hu/" data-target="#partner_1" data-toggle="tab"><img src="theme/images/brandbook-logo.png" alt="Brandbook" style="padding: 9px"></a></div>
+							<div class="logo superbrands col-md-2 col-sm-2 col-xs-12"><a class="tab" target="_blank" href="http://superbrands.hu/" data-target="#partner_2" data-toggle="tab"><img src="theme/images/superbrands-logo.png" alt="Superbrands" style="padding: 9px"></a></div>
+							<div class="logo ashington col-md-2 col-sm-2 col-xs-12"><a class="tab" target="_blank" href="http://ashington.hu/" data-target="#partner_3" data-toggle="tab"><img src="theme/images/ashington-logo.png" alt="Ashington Consulting" style="padding: 9px"></a></div>
+							<div class="logo t-tudok col-md-2 col-sm-2 col-xs-12"><a class="tab" target="_blank" href="http://t-tudok.hu/" data-target="#partner_4" data-toggle="tab"><img src="theme/images/t-tudok-logo.png" alt="T-Tudok" style="padding: 9px"></a></div>
+							<div class="logo referenciak col-md-2 col-sm-2 col-xs-12"><a class="tab" target="_blank" href="http://referenciak.com/" data-target="#partner_5" data-toggle="tab"><img src="theme/images/referenciak-logo.png" alt="referenciak.com" style="padding: 9px"></a></div>
+							<!-- <div class="logo col-md-3 col-sm-3 col-xs-12"><a onclick="javascript: return false;" style="cursor: default" class="tab" href="http://example.com" data-target="#partner_1" data-toggle="tab"><img src="/theme/img/logo-microsoft.png" alt="Microsoft" style="padding: 9px"></a></div> -->
+							<!-- <div class="logo col-md-3 col-sm-3 col-xs-12"><a onclick="javascript: return false;" style="cursor: default" class="tab" href="https://example.com" data-target="#partner_2" data-toggle="tab"><img src="/theme/img/partner-ic-logo.svg" style="    padding: 8px;" alt="Magyar Telekom"></a></div> -->
+							<!-- <div class="logo col-md-3 col-sm-3 col-xs-12"><a onclick="javascript: return false;" style="cursor: default" class="tab" href="http://example.com" data-target="#partner_3" data-toggle="tab"><img src="/theme/img/partner-hunland.png" alt="Hunland Food"></a></div> -->
+							<!-- <div class="logo col-md-3 col-sm-3 col-xs-12"><a onclick="javascript: return false;" style="cursor: default" class="tab" href="http://example.com" data-target="#partner_4" data-toggle="tab"><img src="/theme/img/logo-ingram-micro.png" alt="Ingram Micro" style="padding: 11px"></a></div> -->
+						</div>
+						
+						<div class="row">
+							<div class="empty col-md-1 col-sm-1 col-xs-12"></div>
+							<div class="col-md-10 col-sm-10 col-xs-12">
+								<div class="tab-content">
+									<div class="tab-pane fade" id="partner_1">Brandbook</div>
+									<div class="tab-pane active fade in" id="partner_2">Superbrands <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</p> --></div>
+									<div class="tab-pane fade" id="partner_3">Ashington Consulting <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.</p> --></div>
+									<div class="tab-pane fade" id="partner_4">T-Tudok</div>
+									<div class="tab-pane fade" id="partner_5">referenciak.com</div>
+								</div>
+							</div>
+							<div class="empty col-md-1 col-sm-1 col-xs-12"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			
+			
+
+		<div class="footer">
+  <div class="fixed-container">
+    
+    
+  
+  <p class="copyright">
+    © 2019 SonicData Marketing Kft.
+  </p>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="theme/js/jquery-1.9.1.min.js"></script>
+<script src="theme/js/jquery.mixitup.min.js"></script>
+<script src="theme/js/bootstrap.min.js"></script>
+<script src="theme/init3308.js?update='023"></script>
+<!-- <link href="/theme/mmSlider1.css" rel="stylesheet"> -->
+<script src="theme/mmSlider13308.min.js?update='023"></script>
+<script>
+$(document).ready(function()
+{
+	});
+</script>
+
+<script>
+// $(document).ready(function()
+// {
+  
+//   $('#services i').on('show.bs.tooltip', function () {
+//     $('#services i').tooltip('hide');
+//   })
+//   $('#services i').on('shown.bs.tooltip', function () {
+//     $('.tooltipp-close').click(function(event) {
+//       $('#services i').tooltip('hide');
+//     });
+//   })
+//   $('#services').hover(function() { }, function() {
+//     $('#services i').tooltip('hide');
+//   });
+
+//   $('#register-form .send').unbind('click').bind('click', function(event) {
+//     // if(typeof console !== 'undefined') console.log( 'this' );
+//     $.ajax({
+//       url: '/?ajax=send',
+//       type: "POST",
+//       data: $('#register-form input, #register-form textarea').serializeArray(),
+//       dataType: "json",
+//       // async: true,
+//       // cache: true,
+//       success: function ( data, textStatus, jqXHR ) {
+//         // if(typeof console !== 'undefined') console.log( data );
+//       },
+//       error: function ( jqXHR, textStatus, errorThrown ) {
+//         // if(typeof console !== 'undefined') console.log( textStatus );
+//       },
+//       complete: function ( jqXHR, textStatus ) {
+//         // if(typeof console !== 'undefined') console.log( textStatus );
+//       },
+//     });
+//   });
+// });
+</script>
+	</body>
+
+<!-- Mirrored from localhost.sonicdata.hu/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Feb 2019 22:55:12 GMT -->
 </html>
